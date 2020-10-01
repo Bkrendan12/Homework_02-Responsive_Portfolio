@@ -1,0 +1,28 @@
+/* in the body, I linked the image, centered the image width/height, made so the image doesnt repeat when you change the browser size, 
+fixed it to the screen, and covered the page with the image no matter how you adjust the size of the browser window*/
+
+body {
+    background-image: url(../Assets/Images/background_2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    opacity: 0.3;
+}
+
+
+.nav-item dropdown {
+    background-color: #c83349;
+}
+
+.mynav .dropdown-menu {
+    background-color: #c83349;
+}
+
+.mynav .navbar-brand mb-0 h1 {
+    color: white;
+    font-weight: bold;
+}
