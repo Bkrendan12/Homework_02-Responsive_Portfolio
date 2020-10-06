@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(../Assets/Images/photography/music-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    opacity: 0.55;
+}
+
+.nav-item dropdown {
+    background-color: #8db6aa;
+}
+
+.mynav .dropdown-menu {
+    background-color: #8db6aa;
+}
+
+.mynav .navbar-brand mb-0 h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.youtube{
+    text-align: center;
+    width: 350;
+    height: 250;
+    object-fit: scale-down;
+    opacity: 0.5;
+    
+}
+

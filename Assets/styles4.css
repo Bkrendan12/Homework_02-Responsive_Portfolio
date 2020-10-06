@@ -1,0 +1,35 @@
+body {
+    background-image: url(../Assets/Images/contact-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.95;
+}
+
+    * {box-sizing: border-box;}
+
+.contact {
+    background-color: #c83349;
+    border: 5px solid red;
+}
+
+.contact-form {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.contact {
+    width: 60%;
+}
+
+.contact input {
+    width: 50%;
+}
+
+

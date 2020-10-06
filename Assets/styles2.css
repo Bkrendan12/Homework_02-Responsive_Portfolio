@@ -1,0 +1,26 @@
+
+body {
+    background-image: url(../Assets/Images/photography/camera-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+
+.nav-item dropdown {
+    background-color: #c83349;
+}
+
+.mynav .dropdown-menu {
+    background-color: #c83349;
+}
+
+.mynav .navbar-brand mb-0 h1 {
+    color: white;
+    font-weight: bold;
+}
