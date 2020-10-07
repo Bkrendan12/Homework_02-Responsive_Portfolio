@@ -25,11 +25,57 @@ body {
 }
 
 .contact {
-    width: 60%;
+    width: 100%;
 }
 
 .contact input {
     width: 50%;
 }
 
+form {
+    background-color: #eef58f;
+    margin: 50px;
+    border-style: double;
+    border-radius: 45px;
+    border-color: #c83349;
+    
+}
 
+.row {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.btn.btn-primary {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.form-group {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(221, 255, 251);
+    color: blue;
+    opacity: 0.3;
+}

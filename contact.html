@@ -54,19 +54,42 @@
     
     </div>
     
-    <h3>Contact Form</h3>
+    <header class="col-md-12 text center">
+      <h1>Contact</h1>
+    </header>
 
-         <form class="contact" action="mailto:someone@example.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-         </form>
+    <form>
 
+      <div class="row">
+        <div class="col-lg-6">
+          <label for="exampleFormControlInput1">First name:</label>
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col-lg-6">
+          <label for="exampleFormControlInput1">Last name:</label>
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+
+      <div class="form-group col-lg-12">
+        <label for="exampleFormControlInput1">Email address:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+     
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type here..."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">submit</button>
+
+    </form>
+
+    <footer>
+      <p>Brendan Kurylo Copyright 2020<br>
+      <a href="mailto:bkrendan12@gmail.com">bkrendan12@gmail.com</a></p>
+    </footer>
+    
      
  </body>
  </html>
