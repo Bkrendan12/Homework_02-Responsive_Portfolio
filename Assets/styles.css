@@ -26,3 +26,12 @@ body {
     color: white;
     font-weight: bold;
 }
+
+footer {
+    text-align: center;
+    position: fixed;
+    padding: 3px;
+    background-color: rgb(221, 255, 251);
+    color: blue;
+    opacity: 0.3;
+}

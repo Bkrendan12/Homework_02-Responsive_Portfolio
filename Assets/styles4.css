@@ -4,12 +4,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-body {
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.95;
 }
+
+
 
     * {box-sizing: border-box;}
 
@@ -33,18 +32,39 @@ body {
 }
 
 form {
-    background-color: #eef58f;
-    margin: 50px;
+    background-color: #f0f5af;
+    margin: 12%;
     border-style: double;
     border-radius: 45px;
     border-color: #c83349;
+    padding: 1rem;
+    }
+
+.form-group {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-family: 'Source Code Pro', monospace;
+    }
     
-}
 
 .row {
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
+}
+
+label {
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 3px;
+}
+
+.col-fn {
+    margin-top: 1rem;
+}
+
+.col-ln {
+    margin-top: 1rem;
 }
 
 .btn.btn-primary {
@@ -57,25 +77,36 @@ form {
     display: inline-block;
     font-size: 16px;
     margin-left: 35px;
-    margin-bottom: 15px;
+    margin-bottom: 2.5rem;
     cursor: pointer;
+    font-family: 'Source Code Pro', monospace;
 
 }
 
-.form-group {
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-right: 15px;
-}
-
-.header {
-    color: aliceblue;
-}
-
-footer {
+header {
+    color: white;
     text-align: center;
-    padding: 3px;
-    background-color: rgb(221, 255, 251);
-    color: blue;
-    opacity: 0.3;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.col-home  {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+.col-email {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+.col-footer {
+    text-align: center;
+}
+
+.footer.row {
+    width: auto;
+}
+
+p {
+    color: aliceblue;
 }
