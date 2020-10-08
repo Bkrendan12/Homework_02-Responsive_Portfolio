@@ -7,7 +7,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.95;
 }
+
+
 
 .navbar {
     opacity: 0.5;
@@ -27,11 +31,28 @@ body {
     font-weight: bold;
 }
 
-footer {
+
+
+.col-home  {
     text-align: center;
-    position: fixed;
-    padding: 3px;
-    background-color: rgb(221, 255, 251);
-    color: blue;
-    opacity: 0.3;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+.col-email {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+
+.col-footer {
+    text-align: center;
 }
+
+.footer.row {
+    width: auto;
+}
+
+p {
+    color: aliceblue;
+}
+

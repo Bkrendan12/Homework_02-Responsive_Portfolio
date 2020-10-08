@@ -8,9 +8,7 @@ body {
     opacity: 0.95;
 }
 
-
-
-    * {box-sizing: border-box;}
+* {box-sizing: border-box;}
 
 .contact {
     background-color: #c83349;
@@ -98,6 +96,7 @@ header {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
    }
+
 
 .col-footer {
     text-align: center;

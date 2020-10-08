@@ -42,10 +42,18 @@ h2 {
 }
 
 footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.col-footer {
     text-align: center;
-    position: fixed;
-    padding: 3px;
-    background-color: rgb(221, 255, 251);
-    color: blue;
-    opacity: 0.3;
+}
+
+.footer.row {
+    width: auto;
+}
+
+p {
+    color: aliceblue;
 }

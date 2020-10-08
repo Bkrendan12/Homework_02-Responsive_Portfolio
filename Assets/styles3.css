@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-align: center;
 }
 
 .navbar {
@@ -24,35 +25,26 @@ body {
     font-weight: bold;
 }
 
-
-
+.container {
+    
+}
 h1 {
     color: black;
        text-align: center;
        font-family: 'Nothing You Could Do', cursive;
     }
     
-.container {
-    border-radius:100%;
-    background-image: url("logo.png");
-    background-color:transparent;
-    background-size:cover;
-    background-position:center;
-    border-width:0px;
-    outline:none;
-    width: 40px;
-    height: 40px;
-    }
-    
-.youtube {
-    width: 25%;
+.col-footer {
+    text-align: center;
 }
 
-footer {
+.footer.row {
+    margin-left: auto; 
+    margin-right: auto;
     text-align: center;
-    position: fixed;
-    padding: 3px;
-    background-color: rgb(221, 255, 251);
-    color: blue;
-    opacity: 0.3;
+}
+
+p {
+    color: aliceblue;
+    
 }
