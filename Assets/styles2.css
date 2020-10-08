@@ -46,6 +46,16 @@ footer {
     margin-bottom: 30px;
 }
 
+.col-home  {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+.col-email {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
 .col-footer {
     text-align: center;
 }
