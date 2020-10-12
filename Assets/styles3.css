@@ -1,60 +1,82 @@
-
-body {
-    background-image: url(../Assets/Images/photography/music-background.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
+html, body {
+     margin: 0;
+     height: 100%;
 }
 
+body {
+     background-image: url(../Assets/Images/photography/music-background.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     text-align: center;
+}
+
+/* NAVBAR */
+
 .navbar {
-    opacity: 0.55;
+     opacity: 0.55;
 }
 
 .nav-item dropdown {
-    background-color: gray;
+     background-color: gray;
 }
 
 .mynav .dropdown-menu {
-    background-color: gray;
+     background-color: gray;
 }
 
 .mynav .navbar-brand mb-0 h1 {
-    color: white;
-    font-weight: bold;
+     color: white;
+     font-weight: bold;
+}
+
+/* CONTENT */
+
+header {
+     margin: 35px;
+     text-align: center;
+     width: auto;
+}
+
+.container {
+     position: relative;
+     max-width: 100%;
+     height: 100%;
 }
 
 img {
-    width: 40%;
+     width: 60%;
 }
 
 h1 {
-    color: black;
-       text-align: center;
-       font-family: 'Nothing You Could Do', cursive;
-    }
+     color: black;
+     text-align: center;
+     font-family: 'Nothing You Could Do', cursive;
+}
     
-    .col-home  {
-        text-align: center;
-        font-family: 'Roboto Condensed', sans-serif;
-       }
+   /* FOOTER */
+
+.col-home  {
+     text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+}
     
-    .col-email {
-        text-align: center;
-        font-family: 'Roboto Condensed', sans-serif;
-       }
+.col-email {
+     text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.col-btyk {
+     text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.footer.row {
+     width: auto;
+}
     
-    
-    .col-footer {
-        text-align: center;
-    }
-    
-    .footer.row {
-        width: auto;
-  
-    }
-    
-    p {
-        color: aliceblue;
-    }
+p {
+     color: aliceblue;
+}

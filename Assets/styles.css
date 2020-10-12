@@ -10,31 +10,28 @@ html, body {
     background-attachment: fixed;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.95;
-    
+    opacity: 0.95; 
 } 
 
-h1 {
-    margin-top: 35px;
-
-}
 /* NAVBAR CSS*/
 
 .navbar {
     opacity: 0.5;
 }
 
-.nav-item dropdown {
-    background-color: #c83349;
-}
-
 .mynav .dropdown-menu {
-    background-color: #c83349;
+    background-color: #ad4867;
 }
 
 .mynav .navbar-brand mb-0 h1 {
     color: white;
     font-weight: bold;
+}
+
+/* CONTENT */
+
+h1 {
+    margin-top: 35px;
 }
 
 header {
@@ -43,13 +40,12 @@ header {
     font-family: 'Roboto Condensed', sans-serif;
     width: auto;
     margin-top: 50px;
-       }
+}
 
 .container {
  position: relative;
  max-width: 100%;
  height: 100%;
- 
 }
 
 img {
@@ -60,14 +56,14 @@ img {
     border-style: dotted;
     border-width: 4px;
     border-radius: 50%;
-    }
+}
 
 .boxed {
     width: 100%;
     height: auto;
-    }
+}
 
-  .my-text {
+.my-text {
     position: relative;
     padding-left: 10%;
     padding-right: 10%;
@@ -80,7 +76,9 @@ img {
     justify-content: center;    
     text-align: center;
     margin-bottom: 25px;
-    }
+}
+
+/* FOOTER */
 
 footer {
     position: fixed;
@@ -90,12 +88,12 @@ footer {
     color: white;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-    }
+}
 
 .col-footer {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-   }
+}
 
 p {
     color: aliceblue;
@@ -103,5 +101,5 @@ p {
 
 * {
     box-sizing: border-box;
-  }
+}
   

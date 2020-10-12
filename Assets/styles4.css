@@ -1,6 +1,6 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    margin: 0;
+    height: 100%;
 }
 
 body {
@@ -14,21 +14,29 @@ body {
     height: auto;
 }
 
+/* NAVBAR */
+
 .navbar {
     opacity: 0.8;
 }
 
-.nav-item dropdown {
-    background-color: #c83349;
-}
-
 .mynav .dropdown-menu {
-    background-color: #c83349;
+    background-color: #d60d2b;
 }
 
 .mynav .navbar-brand mb-0 h1 {
     color: white;
     font-weight: bold;
+}
+
+/* CONTENT */
+
+header {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: auto;
+    margin-top: 50px;
 }
 
 .contact {
@@ -57,16 +65,15 @@ form {
     border-radius: 45px;
     border-color: #c83349;
     padding: 1rem;
-    }
+}
 
 .form-group {
     padding-left: 15px;
     padding-top: 15px;
     padding-right: 15px;
     font-family: 'Source Code Pro', monospace;
-    }
+}
     
-
 .row {
     padding-left: 15px;
     padding-top: 15px;
@@ -99,71 +106,34 @@ label {
     margin-bottom: 2.5rem;
     cursor: pointer;
     font-family: 'Source Code Pro', monospace;
-
 }
 
-header {
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    width: auto;
-    margin-top: 50px;
-       }
-
+/* FOOTER */
 
 footer {
     margin-top: 100px;
     margin-bottom: 30px;
-       }
+}
     
-    .col-home  {
-        text-align: center;
-        font-family: 'Roboto Condensed', sans-serif;
-       }
-    
-    .col-email {
-        text-align: center;
-        font-family: 'Roboto Condensed', sans-serif;
-       }
-    
-    .col-footer {
-        text-align: center;
-    }
-    
-    .footer.row {
-        width: auto;
-    }
-    
-    p {
-        color: aliceblue;
-    }
-
-
-
-
-
-/* footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
+.col-home {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+}
     
-    }
-
-
-.col-footer {
+.col-email {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-   }
+}
 
+.col-btyk {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer.row {
+    width: auto;
+}
+    
 p {
     color: aliceblue;
 }
-
-* {
-    box-sizing: border-box;
-  }
-   */
