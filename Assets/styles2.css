@@ -5,6 +5,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.95;
 }
 
 .navbar {
@@ -35,7 +37,7 @@ header {
 }
 
 h1 {
-color: rgb(187, 235, 232);
+   color: rgb(187, 235, 232);
    text-align: center;
    font-family: 'Nothing You Could Do', cursive;
 }

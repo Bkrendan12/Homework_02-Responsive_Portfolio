@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-image: url(../Assets/Images/contact-background.jpg);
     background-position: center center;
@@ -6,9 +11,25 @@ body {
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.95;
+    height: auto;
 }
 
-* {box-sizing: border-box;}
+.navbar {
+    opacity: 0.8;
+}
+
+.nav-item dropdown {
+    background-color: #c83349;
+}
+
+.mynav .dropdown-menu {
+    background-color: #c83349;
+}
+
+.mynav .navbar-brand mb-0 h1 {
+    color: white;
+    font-weight: bold;
+}
 
 .contact {
     background-color: #c83349;
@@ -85,28 +106,64 @@ header {
     color: white;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    width: auto;
     margin-top: 50px;
-}
+       }
 
-.col-home  {
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+       }
+    
+    .col-home  {
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+       }
+    
+    .col-email {
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+       }
+    
+    .col-footer {
+        text-align: center;
+    }
+    
+    .footer.row {
+        width: auto;
+    }
+    
+    p {
+        color: aliceblue;
+    }
+
+
+
+
+
+/* footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
-   }
-
-.col-email {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-   }
+    
+    }
 
 
 .col-footer {
     text-align: center;
-}
-
-.footer.row {
-    width: auto;
-}
+    font-family: 'Roboto Condensed', sans-serif;
+   }
 
 p {
     color: aliceblue;
 }
+
+* {
+    box-sizing: border-box;
+  }
+   */
